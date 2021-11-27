@@ -1,0 +1,25 @@
+@media screen and (max-width: 824px) {
+	.skill-img {
+		margin: 0px auto;
+		width: 382.67px;
+	}	
+	 .px824{
+		width: 100%;
+		
+	}
+	.aplikace-table {
+		text-align: center;
+		margin-top: 5%;	
+		margin-left: 5%;
+		margin-right: 5%;
+	}
+	.progress {
+		max-width: 1024px;
+		margin-bottom: 1%;
+		margin-left: 15%;
+		margin-right: 15%;
+	}
+	.body-side-2 {
+		width: 100%;
+	}
+  }

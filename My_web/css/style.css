@@ -64,7 +64,7 @@ header h2 {
 
 @keyframes mySpinner {
 	from {
-		transform: rotate(0deg);
+		transform: rotate(deg);
 	}
 	250% {
 		transform: rotate(360deg);
@@ -100,13 +100,7 @@ header h2 {
 	font-size: 1em;
 }
 
-.nav-link {
-	width: 320px;
-	margin: auto;
-	font-size: 1.2em;
-	font-family: 'Permanent Marker', cursive;
-	font-family: 'Press Start 2P', cursive;
-}
+
 
 .nav {
 	display: inline;
@@ -166,13 +160,6 @@ iframe {
 }
 
 
-.pre-footer{
-	text-align: center;
-	display: inline-table;
-	justify-content: space-between;
-	order: 1;
-	
-}
 
 
 .header-side-2 h1, .bydlim {
@@ -185,6 +172,10 @@ iframe {
 
 .nav-side-2 {
 	order: 1;
+}
+
+.nav-link {
+	max-width: 250px;
 }
 
 a { 
@@ -250,15 +241,15 @@ aside {
 	text-align: center;
 }
 
-.fa-html5, .fa-css3-alt, .fa-js, .fa-database {
+.fa-html5, .fa-css3-alt, .fa-js {
 	font-size: 500%;
 	text-align: center;
 	margin: 0.333%;
+	color: #1d63a1;
 }
 
-.fa-php {
-	font-size: 100%;
-	text-align: center;
+.fa-html5, .fa-css3-alt, .fa-js:hover {
+	
 }
 
 /*ukazka zbyva pouze par dnu*/

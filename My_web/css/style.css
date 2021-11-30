@@ -116,11 +116,10 @@ header h2 {
 	
 }
 
-.uvodFooter {
-	color: #FFFDE4;
-	width: 80%;
-	margin: auto;
-	font-size: 0.7em;
+
+
+.slide {
+	margin-bottom: 5%;
 }
 
 .icons, .icons-2 {
@@ -248,10 +247,6 @@ aside {
 	color: #1d63a1;
 }
 
-.fa-html5, .fa-css3-alt, .fa-js:hover {
-	
-}
-
 /*ukazka zbyva pouze par dnu*/
 .bgimg {
 	background: #005AA7;  /* fallback for old browsers */  /* Chrome 10-25, Safari 5.1-6 */
@@ -338,7 +333,6 @@ button {
 
 button:hover {
 	background-color: #1d63a1;
-	color: #FFFDE4;
 }
 
 .scaled:hover {
@@ -346,10 +340,87 @@ button:hover {
 }
 
 
+/*hamburger menu*/
+
+
+  .menuItem:hover {
+	text-decoration: underline;
+	color: black;
+  }
+  
+  .hamburger {
+	z-index: 100;
+	text-align: center;
+	padding: 1% 10%;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	background: #005AA7;
+	cursor: pointer;
+  }
+  
+  .closeIcon {
+	display: none;
+  }
+  
+  .menu {
+	position: fixed;
+	transform: translateY(-100%);
+	transition: transform 0s;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 99;
+	min-height: 100vh;
+	color: white;
+	list-style: none;
+	padding-top: 4rem;
+	max-height: 50px;
+  }
+
+  .menu::after {
+	content: "";
+	background: url(../img/comein.gif);
+	opacity: 0.1;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	position: absolute;
+	z-index: -1;   
+  }
+  
+  .showMenu {
+	transform: translateY(0);
+	max-width: 30%;
+	border: #005AA7 8px solid;
+	padding: 0%;
+  }
+
+  .my-burger {
+	  text-align: center;
+  }
+
+.menuIcon, .material-icons {
+	font-family: 'Permanent Marker', cursive;
+	font-family: 'Press Start 2P', cursive;
+	font-size: 1rem;
+	color: antiquewhite;
+}
+
+a, .menuItem {
+	font-size: 2em;
+}
+
+li {
+	margin-top: 10%;
+}
 
 
 
 
+
+ 
 
 
 

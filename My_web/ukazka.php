@@ -1,16 +1,9 @@
 <?php include "_partials/header.php" ?>
-<body>
+<body">
 
-    <div class="bgimg">
-        
-        <div class="middle">
-          <h1>COMING SOON</h1>
-            <hr>
-                <p>
-                    Only a few days left 
-                </p>
-        </div>
-    </div>
-    
+<div class="penzion">
+    <a href="./penzion/index.html" class="penzion" target="_blank">Ukázka webu - Penzion.</a>
+</div>
+
 </body>
 </html>

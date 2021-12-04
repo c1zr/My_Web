@@ -1,3 +1,6 @@
+console.log("%c Ahoj! Díky, že jste na mém webu. Doufám, že Vás zaujmu a třeba získám práci :) Zatím mé skills nejsou nic moc, ale každým dnem se učím něco nového. DÍKY, ŽE TU JSTE  ", "color: #EDF806; font-weight: bold; background: #090909")
+
+
 $('.scriptUvod').fadeOut(0).fadeIn(3400);
 
 $(function(){
@@ -23,6 +26,7 @@ $(function(){
 $(function(){
     $(".bydlim").fadeOut(0).slideDown(1000)
 });
+
 
 /*hamburger menu*/
 
@@ -54,5 +58,4 @@ menuItems.forEach(
     menuItem.addEventListener("click", toggleMenu);
   }
 )
-
 

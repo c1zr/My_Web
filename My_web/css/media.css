@@ -35,26 +35,26 @@
 
 	.showMenu {
 		transform: translateY(0);
-		max-width: 100%;
-		border: #005AA7 3px solid;
+		max-width: 70%;
+		margin: auto;
 	}
 	.menu::after {
 		content: "";
-		background: #005AA7;  /* fallback for old browsers */  /* Chrome 10-25, Safari 5.1-6 */
-		background: linear-gradient(to top, #FFFDE4, #005AA7) no-repeat; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-		min-height: 100vh;
-		opacity: 1;
+		background:#005AA7;
+		opacity: 0.95;
 		top: 0;
 		left: 0;
 		bottom: 0;
 		right: 0;
 		position: absolute;
 		z-index: -1;   
+
 	  }
 
 	.menuItem {
 		font-size: 1.2em;
 		font-weight: 900;
+		color: antiquewhite;
 	}
 
 	li {

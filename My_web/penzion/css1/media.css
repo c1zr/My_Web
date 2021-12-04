@@ -1,0 +1,17 @@
+@media screen and (max-width: 650px) {
+    .menu ul li a {
+        margin: 0 20px;
+    }
+}
+@media screen and (max-width: 500px) {
+    .menu ul {
+        flex-direction: column;
+    }
+    .menu ul li {
+        padding: 7px 0;
+    }
+    .menu ul li a:hover {
+        border: none;
+        color: #b30000;
+    }
+}

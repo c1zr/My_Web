@@ -131,6 +131,7 @@ header h2 {
 }
 
 .main-side-2 {
+	color: antiquewhite;
 	display: flex;
 	flex-flow: row wrap;
 }
@@ -150,6 +151,7 @@ header h2 {
 	border-radius: .5em;
 	margin: 5px;
 	text-align: center;
+	color: antiquewhite;
 }
 
 iframe {
@@ -247,45 +249,6 @@ aside {
 	color: #1d63a1;
 }
 
-/*ukazka zbyva pouze par dnu*/
-.bgimg {
-	background: #005AA7;  /* fallback for old browsers */  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to top, #FFFDE4, #005AA7) no-repeat; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 		26+, Opera 12+, Safari 7+ */
-
-min-height: 100vh;
-height: 100%;
-background-position: center;
-background-size: cover;
-position: relative;
-color: white;
-font-family: "Courier New", Courier, monospace;
-font-size: 25px;
-}
-
-.topleft {
-position: absolute;
-top: 0;
-left: 16px;
-}
-
-.bottomleft {
-position: absolute;
-bottom: 0;
-left: 16px;
-}
-
-.middle {
-position: absolute;
-top: 50%;
-left: 50%;
-transform: translate(-50%, -50%);
-text-align: center;
-}
-
-hr {
-margin: auto;
-width: 40%;
-}
 
 /*pivni aplikace*/
 
@@ -356,6 +319,8 @@ button:hover {
 	margin-bottom: 2%;
 	background: #005AA7;
 	cursor: pointer;
+	box-shadow: #1d63a1 2px 2px 2px;
+	border-radius: 40px;
   }
   
   .closeIcon {
@@ -393,7 +358,6 @@ button:hover {
   .showMenu {
 	transform: translateY(0);
 	max-width: 30%;
-	border: #005AA7 8px solid;
 	padding: 0%;
   }
 
@@ -415,23 +379,6 @@ a, .menuItem {
 li {
 	margin-top: 10%;
 }
-
-
-
-
-
- 
-
-
-
-
-
-
-
-
-
-
-
 
 
 

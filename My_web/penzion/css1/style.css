@@ -1,0 +1,331 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*, *:after, *:before {
+    box-sizing: border-box;
+}
+
+a {
+    transition: all 0.3s ease-out;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+img, iframe {
+    vertical-align: top;
+}
+
+.container {
+    width: 70%;
+    margin: auto;
+}
+
+header .container {
+    text-align: center;
+}
+
+.headerKontakty {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+    align-items: center;
+   
+}
+
+.tel, .pata p a, .kontaktBox p a  {
+    color: #000;
+    text-decoration: none;
+}
+
+.tel:hover, .pata p a:hover {
+    color: #b30000;
+    text-decoration: underline;
+}
+.ikony a {
+    color: #000;
+    font-size: 20px;
+}
+
+.fa-facebook-square:hover {
+    color: #1877F2;
+}
+
+.fa-instagram-square:hover {
+    color: #E4405F;
+}
+
+.fa-twitter:hover {
+    color: #1DA1F2;
+}
+
+.fa-instagram:hover {
+    color: #E4405F;
+}
+
+.fa-twitter-square:hover {
+    color: #1DA1F2;
+}
+
+.logo {
+    color: #000;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 30px;
+    letter-spacing: 10px;
+}
+
+.logo:hover {
+    color: #b30000;
+}
+
+.menu {
+    padding: 40px 0;
+}
+
+
+
+.menu ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+
+.menu ul li a {
+    color: #000;
+    text-decoration: none;
+    margin: 0 40px;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+}
+
+.menu ul li a:hover {
+    border-bottom: 3px solid #b30000;
+    
+}
+
+.menu ul li:hover {
+    transform: scale(1.2);
+}
+
+header img {
+    width: 100%;
+}
+
+/*section*/
+
+
+
+.obsah {
+    text-align: center;
+    padding: 50px 0 150px;
+}
+
+h1 {
+    font-size: 40px;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.obsah h2 {
+    font-family: 'Courier New', Courier, monospace;
+    padding-bottom: 30px;
+    color: #a57a5b;
+    letter-spacing: 2px;
+}
+
+.obsah p {
+    line-height: 1.5;
+}
+
+/*footer*/
+
+.pata {
+    background: #eaeaea;
+    text-align: center;
+    padding-bottom: 40px;
+}
+.pata .logo {
+    font-size: 20px;
+    margin-bottom: 40px;
+    display: inline-block;
+}
+
+.pata p {
+    line-height: 1.5;
+}
+
+.pata p i {
+    margin-right: 10px;
+}
+
+.pata p b, .kontaktBox b {
+    color: #b30000;
+}
+
+.pata .ikony {
+    margin-top: 20px;
+}
+
+.pata .ikony a {
+    font-size: 30px;
+}
+
+.copy {
+    text-align: center;
+    padding: 15px 0;
+    font-size: 14px;
+}
+
+
+
+.btn {
+    border: 1px solid #000;
+    border-radius: 10px;
+    padding: 15px;
+    color: #000;
+    font-size: 30px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+
+}
+
+.btn:hover {
+    background: #b30000;
+    color: #fff;
+}
+
+/*kontakt*/
+
+.kontakt {
+    text-align: center;
+    padding: 100px 0;
+}
+
+.kontaktGrey {
+    background: #eaeaea;
+    padding-bottom: 50px;
+}
+
+.kontaktFlex {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    padding: 0 40px 40px;
+    line-height: 1.5;
+}
+
+.kontaktBox p i {
+    width: 40px;
+}
+
+.karty {
+    font-size: 35px;
+    margin-top: 50px;
+}
+
+.kontakt iframe {
+    width: 100%;
+    margin: 10px 0;
+}
+
+.kontaktGrey h2 {
+    padding: 50px 0;
+    text-transform: uppercase;
+}
+
+.kontaktGrey input[type="text"],
+.kontaktGrey input[type="mail"],
+.kontaktGrey textarea, .kontaktGrey select {
+    display: block;
+    padding: 10px;
+    font-size: 16px;
+    width: 70%;
+    margin: 0 auto 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+textarea {
+    height: 120px;
+}
+
+
+.kontaktGrey input[type="submit"] {
+    font-size: 16px;
+    background: #b30000;
+    padding: 15px 30px;
+    text-transform: uppercase;
+    color: #fff;
+    border-radius: 10px;
+    border: none;
+    transition: all 0.3s ease-out;
+    margin-top: 15px;
+}
+
+.kontaktGrey input[type="submit"]:hover {
+    background: #E4405F;
+    cursor: pointer;
+    
+} 
+
+option value {
+    color: #E4405F;
+}
+
+/*galerry*/
+
+.galerie {
+    padding-bottom: 100px;
+}
+
+.galerie img {
+    width: 24%;
+    margin: 3.5px;
+}
+
+.foto {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+@media screen and (max-width: 650px) {
+    .menu ul li a {
+        margin: 0 20px;
+    }
+}
+@media screen and (max-width: 500px) {
+    .menu ul {
+        flex-direction: column;
+    }
+    .menu ul li {
+        padding: 7px 0;
+    }
+    .menu ul li a:hover {
+        border: none;
+        color: #b30000;
+    }
+
+    .kontaktFlex {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        padding: inherit;
+        line-height: 1.5;
+    }
+
+    .container {
+        width: 100%;
+        margin: auto;
+    }
+
+    
+}

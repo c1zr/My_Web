@@ -1,6 +1,5 @@
 <?php include "_partials/header.php" ?>
 <body class="aplikace">
-
 <?php
     $cenaPiva = null;
     $spropitne = null;
@@ -66,6 +65,6 @@
         <?php echo $tabulka; ?>
     </div>
 
-    
+    <script src="script.js"></script>
 </html>
 

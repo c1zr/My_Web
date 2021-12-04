@@ -1,7 +1,6 @@
 <?php include "_partials/header.php" ?>
 </head>
-
-<body class='body-side-2'>
+<body class="body-side-2 ">
     <header class="header-side-2">
         <h1 class="omne">O mně</h1>
         <hr>
@@ -9,7 +8,7 @@
     <main class="main-side-2">
         <aside>
                 <h2>In progress</h2><br>
-                <p>HTML, CSS, JavaScript, jQuery...</p> 
+                <p>HTML, CSS, JavaScript, Vue.js </p> 
                 <button class="btn btn-primary" type="button" disabled>
                 <span class="spinner-grow spinner-grow-sm" role="status" aria-hidden="true"></span>
                     Loading skills.
@@ -17,13 +16,12 @@
         </aside>
 
         <aside>
-            <h2>Kontakt</h2>
+            <h2>📞Kontakt💬</h2>
             <ul class='ul-side-2'>
-                <li><a href="mailto:jendacizu@email.cz">💬 jendacizu@ email.cz</a></li><br /><br />
-                <li><a href="tel:773-080-980">📞 +420 773 080 980</a></li>
-            </ul>
+                <li><a href="mailto:jendacizu@email.cz">jendacizu@ email.cz</a></li><br /><br />
+                <li><a href="tel:773-080-980">773 080 980</a></li>
+            </ul> 
         </aside>
-
         <aside>
            <a href="https://github.com/c1zr" target="_blank"><img class="scaled" src="img/github2.png" width="300" alt="GitHub">GitHub</a>
         </aside>
@@ -33,7 +31,6 @@
         </aside>
     
     </main>
-
     <h3 class="bydlim">Tady bydlím<br><hr>
         🌳🏡🏡🏡🌳
     </h3>

@@ -6,6 +6,11 @@
         <h1>Jan Číž</h1>
         <h2>&lt;C1ZR&gt;</h2>
     </header>
+    <div class='box'>
+    <div class='wave -one'></div>
+    <div class='wave -two'></div>
+    <div class='wave -three'></div>
+</div>
     <main>
         <div class="portret-1">
             <img class="portret" src="img/portret.jpg" width='200' alt="Jan Ciz">
@@ -36,11 +41,11 @@
             </div>
             <h3 class="dovednosti">JavaScript</h3>
             <div class="progress">
-                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 13%"></div>
+                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 10%"></div>
             </div>
-            <h3 class="dovednosti">Vue.js</h3>
+            <h3 class="dovednosti">Vue.js, React</h3>
             <div class="progress">
-                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 15%"></div>
+                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 10%"></div>
             </div>
             <h3 class="dovednosti">PHP</h3>
             <div class="progress">

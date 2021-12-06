@@ -1,7 +1,7 @@
 console.log("%c Ahoj! Díky, že jste na mém webu. Doufám, že Vás zaujmu a třeba získám práci :) Zatím mé skills nejsou nic moc, ale každým dnem se učím něco nového. DÍKY, ŽE TU JSTE  ", "color: #EDF806; font-weight: bold; background: #090909")
 
 
-$('.scriptUvod').fadeOut(0).fadeIn(3400);
+$('.scriptUvod').fadeOut(0).fadeIn(500);
 
 $(function(){
     $(".animate, .uvodFooter").animate({
@@ -58,4 +58,6 @@ menuItems.forEach(
     menuItem.addEventListener("click", toggleMenu);
   }
 )
+
+////////////////////////////////*/
 

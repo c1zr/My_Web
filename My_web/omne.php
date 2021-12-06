@@ -8,7 +8,7 @@
     <main class="main-side-2">
         <aside>
                 <h2>In progress</h2><br>
-                <p>HTML, CSS, JavaScript, Vue.js </p> 
+                <p>HTML, CSS, PHP, JavaScript, Vue.js, React. </p> 
                 <button class="btn btn-primary" type="button" disabled>
                 <span class="spinner-grow spinner-grow-sm" role="status" aria-hidden="true"></span>
                     Loading skills.

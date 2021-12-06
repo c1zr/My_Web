@@ -1,4 +1,4 @@
-@media screen and (max-width: 824px) {
+@media screen and (max-width: 800px) {
 	.skill-img {
 		margin: 0px auto;
 		width: 382.67px;
@@ -21,12 +21,12 @@
 	}
 	.body-side-2 {
 		width: 100%;
-	}
+	}					
 
 	.hamburger {
 		z-index: 100;
 		text-align: center;
-		padding:3% 20%;
+		padding:3% 20%;																				
 		margin-top: 2%;
 		margin-bottom: 2%;
 		background: #005AA7;
@@ -54,12 +54,18 @@
 	.menuItem {
 		font-size: 1.2em;
 		font-weight: 900;
-		color: antiquewhite;
+		color: wheat;
+		
 	}
 
 	li {
 		margin-top: 30%;
 	}
+
+	.wave {
+    height: 0px;
+	}
+
   }
 
 

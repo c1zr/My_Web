@@ -1,17 +1,18 @@
 /*general*/
 * {
 	box-sizing: border-box;
+	
 }
 *, *:before, *:after {
 	box-sizing: inherit;
 }
 
 
+
 /*body*/
 body {
 	background: #005AA7;  /* fallback for old browsers */  /* Chrome 10-25, Safari 5.1-6 */
 	background: linear-gradient(to top, #FFFDE4, #005AA7) no-repeat; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
 	min-height: 100vh;
 }
 
@@ -23,13 +24,13 @@ header {
 }
 
 header h1 {
-	color: #cfe2f3;
+	color: wheat;
 	font-family: 'Permanent Marker', cursive;
 	font-family: 'Press Start 2P', cursive;
 }
 
 header h2 {
-	color: #cfe2f3;
+	color: wheat;
 	font-family: 'Permanent Marker', cursive;
 	font-family: 'Press Start 2P', cursive;
 }
@@ -53,9 +54,9 @@ header h2 {
 .portret {
 	margin-top: 3.5%;
 	margin-bottom: 3.5%;
-	border: 3px solid #cfe2f3;
+	border: 3px solid wheat;
 	border-radius: 50%;
-	box-shadow: -1px -1px 25px #cfe2f3;
+	box-shadow: -1px -1px 25px wheat;
 	
 	animation: mySpinner 3.5s;
 	animation-iteration-count: 1;
@@ -95,7 +96,7 @@ header h2 {
 .dovednosti {
 	font-family: 'Permanent Marker', cursive;
 	font-family: 'Press Start 2P', cursive;
-	color: black;
+	color: #005AA7;
 	text-align: center;
 	font-size: 1em;
 }
@@ -110,7 +111,7 @@ header h2 {
 
 
 .body-side-2, a { 
-	color: #FFFDE4;
+	color: wheat;
 	width: 80%;
 	margin: auto;
 	
@@ -131,7 +132,7 @@ header h2 {
 }
 
 .main-side-2 {
-	color: antiquewhite;
+	color: wheat;
 	display: flex;
 	flex-flow: row wrap;
 }
@@ -151,7 +152,7 @@ header h2 {
 	border-radius: .5em;
 	margin: 5px;
 	text-align: center;
-	color: antiquewhite;
+	color: wheat;
 }
 
 iframe {
@@ -164,7 +165,7 @@ iframe {
 
 
 .header-side-2 h1, .bydlim {
-	color: #FFFDE4;
+	color: wheat;
 	font-size: 2em;
 	font-family: 'Permanent Marker', cursive;
 	font-family: 'Press Start 2P', cursive;
@@ -194,6 +195,7 @@ p {
 }
 
 footer, h2 {
+	color: wheat;
 	margin-top: 0%; 
 	font-family: 'Permanent Marker', cursive;
 	font-family: 'Press Start 2P', cursive;
@@ -220,7 +222,7 @@ aside {
 	height: 150px;
 	margin-top: 20%;
 	line-height: 150px;
-	color: white;
+	color: wheat;
 	font-weight: bold;
 	font-size: 3em;
 	text-align: center;
@@ -308,7 +310,8 @@ button:hover {
 
   .menuItem:hover {
 	text-decoration: underline;
-	color: black;
+	color: #005AA7;
+	transform: scale(1.1);
   }
   
   .hamburger {
@@ -321,6 +324,7 @@ button:hover {
 	cursor: pointer;
 	box-shadow: #1d63a1 2px 2px 2px;
 	border-radius: 40px;
+	color: #005AA7;
   }
   
   .closeIcon {
@@ -337,28 +341,19 @@ button:hover {
 	bottom: 0;
 	z-index: 99;
 	min-height: 100vh;
-	color: white;
+	color: wheat;
 	list-style: none;
 	padding-top: 4rem;
-	max-height: 50px;
+	
   }
 
-  .menu::after {
-	content: "";
-	background: url(../img/comein.gif);
-	opacity: 0.1;
-	top: 0;
-	left: 0;
-	bottom: 0;
-	right: 0;
-	position: absolute;
-	z-index: -1;   
-  }
+  
   
   .showMenu {
 	transform: translateY(0);
 	max-width: 30%;
 	padding: 0%;
+	padding-top:15%;
   }
 
   .my-burger {
@@ -369,12 +364,10 @@ button:hover {
 	font-family: 'Permanent Marker', cursive;
 	font-family: 'Press Start 2P', cursive;
 	font-size: 1rem;
-	color: antiquewhite;
+	color: wheat;
 }
 
-a, .menuItem {
-	font-size: 2em;
-}
+
 
 li {
 	margin-top: 10%;
@@ -382,15 +375,157 @@ li {
 
 
 
+/**************************************************************************/
 
 
 
 
 
+body{
+	margin: 0;
+	padding: 0;
+	background-color: #0e6cc4;
+	
+}
+
+/*waves****************************/
 
 
+.box {
+	position: fixed;
+	top: 0;
+	transform: rotate(80deg);
+	left: 0;
+}
 
+.wave {
+  position: fixed;
+  top: 0;
+  left: 0;
+  opacity: .4;
+  position: absolute;
+  top: 3%;
+  left: 10%;
+  background: #0af;
+  width: 1500px;
+  height: 1300px;
+  margin-left: -150px;
+  margin-top: -250px;
+  transform-origin: 50% 48%;
+  border-radius: 43%;
+  animation: drift 7000ms infinite linear;
+}
 
+.wave.-three {
+  animation: drift 10000ms infinite linear;
+	position: fixed;
+	background-color: #77daff;
+}
+
+.wave.-two {
+  animation: drift 5000ms infinite linear;
+  opacity: .1;
+  background: black;
+	position: fixed;
+}
+
+.box:after {
+  content: '';
+  display: block;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 11;
+  transform: translate3d(0, 0, 0);
+}
+
+@keyframes drift {
+  from { transform: rotate(10deg); }
+  from { transform: rotate(360deg); }
+}
+
+/*LOADING SPACE*/
+
+.contain {
+	animation-delay: 4s;
+	z-index: 1000;
+	position: fixed;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-flow: row nowrap;
+	flex-flow: row nowrap;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+
+	background: #25a7d7;
+	background: -webkit-linear-gradient(#25a7d7, #2962FF);
+	background: linear-gradient(#25a7d7, #25a7d7);
+	}
+
+	.icon {
+	width: 100px;
+	height: 100px;
+	margin: 0 5px;
+	}
+
+	/*Animation*/
+	.icon:nth-child(2) img {-webkit-animation-delay: 0.2s;animation-delay: 0.2s}
+	.icon:nth-child(3) img {-webkit-animation-delay: 0.3s;animation-delay: 0.3s}
+	.icon:nth-child(4) img {-webkit-animation-delay: 0.4s;animation-delay: 0.4s}
+
+	.icon img {
+	-webkit-animation: anim 2s ease infinite;
+	animation: anim 2s ease infinite;
+	-webkit-transform: scale(0,0) rotateZ(180deg);
+	transform: scale(0,0) rotateZ(180deg);
+	}
+
+	@-webkit-keyframes anim{
+	0% {
+		-webkit-transform: scale(0,0) rotateZ(-90deg);
+		transform: scale(0,0) rotateZ(-90deg);opacity:0
+	}
+	30% {
+		-webkit-transform: scale(1,1) rotateZ(0deg);
+		transform: scale(1,1) rotateZ(0deg);opacity:1
+	}
+	50% {
+		-webkit-transform: scale(1,1) rotateZ(0deg);
+		transform: scale(1,1) rotateZ(0deg);opacity:1
+	}
+	80% {
+		-webkit-transform: scale(0,0) rotateZ(90deg);
+		transform: scale(0,0) rotateZ(90deg);opacity:0
+	}
+	}
+
+	@keyframes anim{
+	0% {
+		-webkit-transform: scale(0,0) rotateZ(-90deg);
+		transform: scale(0,0) rotateZ(-90deg);opacity:0
+	}
+	30% {
+		-webkit-transform: scale(1,1) rotateZ(0deg);transform: scale(1,1) rotateZ(0deg);opacity:1
+	}
+	50% {
+		-webkit-transform: scale(1,1) rotateZ(0deg);
+		transform: scale(1,1) rotateZ(0deg);opacity:1
+	}
+	80% {
+		-webkit-transform: scale(0,0) rotateZ(90deg);
+		transform: scale(0,0) rotateZ(90deg);opacity:0
+	}
+	}
 
 
 
